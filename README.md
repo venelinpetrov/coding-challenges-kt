@@ -4,10 +4,10 @@ These are some interview problems given by tech companies like Google, Microsoft
 
 ## Table of contents
 
-1. [Least recently used cache](src/main/kotlin/LRUCache2.main.kts), asked by Google
-2. [Binary expression tree](./src/main/kotlin/BinaryExpressionTree.main.kts), asked by Microsoft
-3. [Queue with two stacks](./src/main/kotlin/QueueWithTwoStacks.main.kts), asked by Apple
-4. [Subsets with equal sums](src/main/kotlin/SubsetsWithEqualSums.kts), asked by Facebook
+1. [Least recently used cache](src/main/kotlin/LRUCache.kts), asked by Google
+2. [Binary expression tree](./src/main/kotlin/BinaryExpressionTree.kts), asked by Microsoft
+3. [Queue with two stacks](./src/main/kotlin/QueueWithTwoStacks.kts), asked by Apple
+4. [Subsets with equal sums](./src/main/kotlin/SubsetsWithEqualSums.kts), asked by Facebook
 
 ## Additional 
 
