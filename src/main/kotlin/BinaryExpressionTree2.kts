@@ -56,3 +56,13 @@ val tree = BinaryExpressionTree(
 )
 
 println(tree.calc())
+
+fun getClassroomsCount(schedules: List<List<Int>>): Int {
+    if (schedules.isEmpty()) {
+        return 0
+    }
+
+    val sorted = schedules.sortedBy { it[0] }
+
+    return 1
+}

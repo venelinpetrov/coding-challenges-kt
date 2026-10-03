@@ -8,6 +8,7 @@ These are some interview problems given by tech companies like Google, Microsoft
 2. [Binary expression tree](./src/main/kotlin/BinaryExpressionTree.kts), asked by Microsoft
 3. [Queue with two stacks](./src/main/kotlin/QueueWithTwoStacks.kts), asked by Apple
 4. [Subsets with equal sums](./src/main/kotlin/SubsetsWithEqualSums.kts), asked by Facebook
+5. [Classroom schedule](./src/main/kotlin/Classrooms.kts), asked by Snapchat
 
 ## Additional 
 
