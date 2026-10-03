@@ -10,26 +10,24 @@ Given an array of time intervals (start, end) for classroom lectures (possibly o
 For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
 */
 
-fun getClassroomsCount(schedules: List<List<Int>>): Int {
+fun getClassroomsCount(schedules: List<Pair<Int, Int>>): Int {
     if (schedules.isEmpty()) {
         return 0
     }
 
-    val sorted = schedules.sortedBy { it[0] }
+    val sorted = schedules.sortedBy { it.first }
     val roomEndTimes = PriorityQueue<Int>()
 
-    for (schedule in sorted) {
-        val start = schedule[0]
-        val end = schedule[1]
+    for ((start, end) in sorted) {
 
         if (!roomEndTimes.isEmpty() && roomEndTimes.peek() <= start) {
-            roomEndTimes.poll();
+            roomEndTimes.poll()
         }
 
-        roomEndTimes.offer(end);
+        roomEndTimes.offer(end)
     }
 
-    return roomEndTimes.count();
+    return roomEndTimes.count()
 }
 
-getClassroomsCount(listOf(listOf(30, 75), listOf(0, 50), listOf(60, 150)))
+getClassroomsCount(listOf(Pair(30, 75), Pair(0, 50), Pair(60, 150)))
