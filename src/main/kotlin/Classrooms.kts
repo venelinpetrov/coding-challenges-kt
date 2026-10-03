@@ -20,14 +20,14 @@ fun getClassroomsCount(schedules: List<Pair<Int, Int>>): Int {
 
     for ((start, end) in sorted) {
 
-        if (!roomEndTimes.isEmpty() && roomEndTimes.peek() <= start) {
+        if (roomEndTimes.isNotEmpty() && roomEndTimes.peek() <= start) {
             roomEndTimes.poll()
         }
 
         roomEndTimes.offer(end)
     }
 
-    return roomEndTimes.count()
+    return roomEndTimes.size
 }
 
 getClassroomsCount(listOf(Pair(30, 75), Pair(0, 50), Pair(60, 150)))
