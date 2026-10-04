@@ -1,6 +1,6 @@
 #!/usr/bin/env kotlin
 
-import java.util.PriorityQueue
+import java.util.*
 
 /*
 This problem was asked by Snapchat.
