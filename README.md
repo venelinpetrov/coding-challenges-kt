@@ -11,6 +11,7 @@ These are some interview problems given by tech companies like Google, Microsoft
 1. [Power function](./src/main/kotlin/Pow.kts), asked by Google
 1. [Queue with two stacks](./src/main/kotlin/QueueWithTwoStacks.kts), asked by Apple
 1. [Subsets with equal sums](./src/main/kotlin/SubsetsWithEqualSums.kts), asked by Facebook
+1. [Url shortener](./src/main/kotlin/UrlShortener.kts), asked by Microsoft
 
 ## Additional 
 
