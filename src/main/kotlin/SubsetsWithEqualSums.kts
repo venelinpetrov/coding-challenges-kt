@@ -17,7 +17,7 @@
     If Sum(s1) = Sum(s2)
     then Sum(s1) = Sum(S) / 2
 
-    Therefore we are looking for just one subset that sums up to this Sum(S) / 2. This is the target value.
+    Therefore, we are looking for just one subset that sums up to this Sum(S) / 2. This is the target value.
     This also implies that Sum(S) must be even number
 
     Then we iterate over all the numbers and construct the possible sums. If a sum is equal to target then return true, otherwise - false.
